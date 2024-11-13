@@ -59,11 +59,20 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|218332500|143720000|c48420f2-76b4-40a5-87fc-e5d2810c7b66|46f9b109-5a99-42d8-b1a6-a7a9381c7d29",
-        "hole_clearance|218332500|143720000|c48420f2-76b4-40a5-87fc-e5d2810c7b66|ac94b8e4-e54b-4a3d-af89-9b96ff9071fd",
-        "hole_clearance|218332500|149820000|c8eb752b-4424-4346-8081-d7633d7136bb|ef415e51-3dde-4b13-a089-a9810f6f7499",
-        "hole_clearance|218332500|149820000|c8eb752b-4424-4346-8081-d7633d7136bb|f9b7af0a-e0b3-42ea-ae31-8345d0eb5afb",
-        "lib_footprint_mismatch|161890000|125250000|0a3abd62-bafa-495f-8bbb-438b74708eda|00000000-0000-0000-0000-000000000000"
+        "hole_clearance|203372500|159420000|c8eb752b-4424-4346-8081-d7633d7136bb|ef415e51-3dde-4b13-a089-a9810f6f7499",
+        "hole_clearance|203372500|159420000|c8eb752b-4424-4346-8081-d7633d7136bb|f9b7af0a-e0b3-42ea-ae31-8345d0eb5afb",
+        "hole_clearance|209472500|159420000|c48420f2-76b4-40a5-87fc-e5d2810c7b66|46f9b109-5a99-42d8-b1a6-a7a9381c7d29",
+        "hole_clearance|209472500|159420000|c48420f2-76b4-40a5-87fc-e5d2810c7b66|ac94b8e4-e54b-4a3d-af89-9b96ff9071fd",
+        "lib_footprint_mismatch|161890000|125250000|0a3abd62-bafa-495f-8bbb-438b74708eda|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|106760000|135300000|6c8c5872-9ef7-4513-b651-09d26e3e7239|779cea95-e071-4650-bb9b-3d9bc4cd9519",
+        "silk_overlap|107740000|135300000|6c8c5872-9ef7-4513-b651-09d26e3e7239|2cc18d5c-1317-49b5-8ae2-f1d017a12438",
+        "silk_overlap|107750000|135300000|6c8c5872-9ef7-4513-b651-09d26e3e7239|b80ddf88-42fb-4d65-8b25-c6a4b622457a",
+        "silk_overlap|201125000|85000000|f126dab8-bde5-49d1-b8f3-dbae596d9208|62e61243-e04f-4152-a948-a3173217c3b6",
+        "silk_overlap|202125000|85000000|f126dab8-bde5-49d1-b8f3-dbae596d9208|30cc085b-ed4f-4948-8456-fb93a80fd0b6",
+        "silk_overlap|202125000|85000000|f126dab8-bde5-49d1-b8f3-dbae596d9208|aceec0cc-7da9-47df-a462-00655bc5e889",
+        "silk_overlap|215625000|85040000|e6285d7e-b4a3-4dbe-b2bb-e5ba1dfa5c0c|9728e589-6d30-450c-b2c0-ab43c211b230",
+        "silk_overlap|216625000|85040000|3832137b-0667-4f3d-a1b4-124ae6baefea|9728e589-6d30-450c-b2c0-ab43c211b230",
+        "silk_overlap|216625000|85040000|4feefa0d-57e7-4dcc-b11a-eb6042d4c7e5|9728e589-6d30-450c-b2c0-ab43c211b230"
       ],
       "meta": {
         "version": 2
@@ -129,7 +138,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -498,7 +507,7 @@
       "idf": "",
       "netlist": "../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "plot": "gerber/",
-      "pos_files": "",
+      "pos_files": "../../../../../",
       "specctra_dsn": "",
       "step": "EE106B_PCB.step",
       "svg": "",
@@ -508,7 +517,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -653,6 +662,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
           "show": false
         }
       ],
