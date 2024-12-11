@@ -531,7 +531,7 @@
       "idf": "",
       "netlist": "../../../../../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "plot": "gerber/",
-      "pos_files": "../../../../../",
+      "pos_files": ".",
       "specctra_dsn": "",
       "step": "EE106B_PCB.step",
       "svg": "",
@@ -692,6 +692,12 @@
           "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],
