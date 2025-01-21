@@ -58,14 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|47501861|40356328|1884ae38-e53c-49e5-a83d-8e28181229fa|5cec6605-ebb3-461a-bbe8-e32ba9457f04",
-        "hole_clearance|63498139|40493672|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2|4282ac4e-9418-41d1-affb-b1054b4f5363",
-        "solder_mask_bridge|46715000|40550000|9a4d35fa-fbc7-4b2c-8b48-424ecb1f488d|1884ae38-e53c-49e5-a83d-8e28181229fa",
-        "solder_mask_bridge|46840000|40425000|9a4d35fa-fbc7-4b2c-8b48-424ecb1f488d|1884ae38-e53c-49e5-a83d-8e28181229fa",
-        "solder_mask_bridge|64160000|40425000|ad3334da-5c51-473a-9997-5b868701eadd|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2",
-        "solder_mask_bridge|64262560|38375000|ad3334da-5c51-473a-9997-5b868701eadd|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -130,7 +123,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,

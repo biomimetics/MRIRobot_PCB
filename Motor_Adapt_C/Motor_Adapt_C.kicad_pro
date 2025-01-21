@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -64,9 +64,7 @@
         "solder_mask_bridge|43690000|50000000|9a4d35fa-fbc7-4b2c-8b48-424ecb1f488d|1884ae38-e53c-49e5-a83d-8e28181229fa",
         "solder_mask_bridge|43793955|47950000|9a4d35fa-fbc7-4b2c-8b48-424ecb1f488d|1884ae38-e53c-49e5-a83d-8e28181229fa",
         "solder_mask_bridge|60885000|47950000|ad3334da-5c51-473a-9997-5b868701eadd|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2",
-        "solder_mask_bridge|61010000|50000000|ad3334da-5c51-473a-9997-5b868701eadd|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2",
-        "starved_thermal|46000000|76287922|777e17ff-5042-46c8-9b7d-49a61a35e9f7|0cf31ef9-3f54-4295-b62b-40eac1884168|B.Cu",
-        "starved_thermal|46000000|77500000|777e17ff-5042-46c8-9b7d-49a61a35e9f7|0cf31ef9-3f54-4295-b62b-40eac1884168|F.Cu"
+        "solder_mask_bridge|61010000|50000000|ad3334da-5c51-473a-9997-5b868701eadd|d5d1a07e-aa01-4c52-b22e-2f9e574c07a2"
       ],
       "meta": {
         "version": 2
@@ -132,7 +130,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,

@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.5"
+      "Version": "8.0.8"
     },
-    "CreationDate": "2024-12-09T20:19:28-08:00"
+    "CreationDate": "2025-01-20T17:52:53-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 34.8,
-      "Y": 24.55
+      "X": 34.55,
+      "Y": 32.55
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
