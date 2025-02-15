@@ -483,7 +483,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Motor_Adapt_M.step",
       "svg": "",
       "vrml": ""
     },
