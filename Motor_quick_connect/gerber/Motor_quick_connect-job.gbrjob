@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "9.0.0"
     },
-    "CreationDate": "2025-04-07T00:55:53-07:00"
+    "CreationDate": "2025-04-07T00:56:55-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Motor_reroute",
-      "GUID": "4d6f746f-725f-4726-9572-6f7574652e6b",
+      "Name": "Motor_quick_connect",
+      "GUID": "4d6f746f-725f-4717-9569-636b5f636f6e",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 88.05,
-      "Y": 45.05
+      "X": 42.8,
+      "Y": 46.3
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,54 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
+      "MinLineWidth": 0.5,
       "TrackToRegion": 0.75,
       "RegionToRegion": 0.75
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Motor_reroute-F_Cu.gbr",
+      "Path": "Motor_quick_connect-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-B_Cu.gbr",
+      "Path": "Motor_quick_connect-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-F_Paste.gbr",
+      "Path": "Motor_quick_connect-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-B_Paste.gbr",
+      "Path": "Motor_quick_connect-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-F_Silkscreen.gbr",
+      "Path": "Motor_quick_connect-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-B_Silkscreen.gbr",
+      "Path": "Motor_quick_connect-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Motor_reroute-F_Mask.gbr",
+      "Path": "Motor_quick_connect-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Motor_reroute-B_Mask.gbr",
+      "Path": "Motor_quick_connect-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Motor_reroute-Edge_Cuts.gbr",
+      "Path": "Motor_quick_connect-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
