@@ -64496,6 +64496,94 @@
 			)
 		)
 	)
+	(sheet
+		(at 499.11 325.12)
+		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db868b9c-3101-4066-96b0-e9597b9a30f1")
+		(property "Sheetname" "USBC Connector"
+			(at 499.11 324.4084 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC-Power.kicad_sch"
+			(at 499.11 358.7246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_RX" output
+			(at 499.11 331.47 180)
+			(uuid "1acd4585-7671-4312-84dc-c1244ef94e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_3.3V" input
+			(at 499.11 339.09 180)
+			(uuid "b7b2ebf6-1147-4bd1-a2f8-1e8f7717f3f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 499.11 335.28 180)
+			(uuid "bdc083a3-9006-410b-9384-2762142fe33c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_5V" output
+			(at 499.11 345.44 180)
+			(uuid "aba644a4-194d-4c58-9633-161d29309004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_GND" input
+			(at 499.11 350.52 180)
+			(uuid "3be2a7af-39e9-4d49-98e0-478f65906c81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
