@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MRI symbols")(type "KiCad")(uri "${KIPRJMOD}/MRIRobot.kicad_sym")(options "")(descr ""))
+  (lib (name "NucleoF446RE")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F446RE/NUCLEO-F446RE.kicad_sym")(options "")(descr ""))
+)

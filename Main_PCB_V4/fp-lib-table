@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "nucleo446-footprint")(type "KiCad")(uri "${KIPRJMOD}/NUCLEO-F446RE/MODULE_NUCLEO-F446RE.pretty")(options "")(descr ""))
+)

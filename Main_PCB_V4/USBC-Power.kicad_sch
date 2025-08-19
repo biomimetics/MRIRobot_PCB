@@ -2160,28 +2160,10 @@
 		(uuid "00ae109f-6fba-4f0d-9779-b92281eb8b28")
 	)
 	(junction
-		(at 115.57 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00ae109f-6fba-4f0d-9779-b92281eb8b28")
-	)
-	(junction
 		(at 76.2 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a18148a-66f3-4f55-9088-222892ee2e3b")
-	)
-	(junction
-		(at 76.2 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a18148a-66f3-4f55-9088-222892ee2e3b")
-	)
-	(junction
-		(at 132.08 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc9a728-a763-4227-9b62-9456fec95602")
 	)
 	(junction
 		(at 132.08 86.36)
@@ -2196,28 +2178,10 @@
 		(uuid "1c07f5dc-4a06-487d-a4d6-d8195ca9f336")
 	)
 	(junction
-		(at 134.62 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c07f5dc-4a06-487d-a4d6-d8195ca9f336")
-	)
-	(junction
 		(at 115.57 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43d04775-c07f-4dfa-b7e8-688a49d29ff8")
-	)
-	(junction
-		(at 115.57 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43d04775-c07f-4dfa-b7e8-688a49d29ff8")
-	)
-	(junction
-		(at 60.96 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e32a893-ec7d-4167-b13d-88d5646d4b3a")
 	)
 	(junction
 		(at 60.96 87.63)
@@ -2232,18 +2196,6 @@
 		(uuid "d96abdcb-eec2-488e-8031-c3e25ee26dfb")
 	)
 	(junction
-		(at 83.82 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d96abdcb-eec2-488e-8031-c3e25ee26dfb")
-	)
-	(junction
-		(at 76.2 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd58ea45-8afe-4a29-b4f6-dedc0bd04ec4")
-	)
-	(junction
 		(at 76.2 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2254,20 +2206,8 @@
 		(uuid "0907567d-77f6-463d-a02c-626c85354cd0")
 	)
 	(no_connect
-		(at 116.84 46.99)
-		(uuid "0907567d-77f6-463d-a02c-626c85354cd0")
-	)
-	(no_connect
 		(at 152.4 69.85)
 		(uuid "22f8e1d6-0651-4713-9858-1e7d448d4497")
-	)
-	(no_connect
-		(at 152.4 69.85)
-		(uuid "22f8e1d6-0651-4713-9858-1e7d448d4497")
-	)
-	(no_connect
-		(at 152.4 74.93)
-		(uuid "2a17f07f-1de7-4db5-b961-94193d9ef6c5")
 	)
 	(no_connect
 		(at 152.4 74.93)
@@ -2278,20 +2218,8 @@
 		(uuid "2ac5c205-8800-4c11-9594-33833a87637c")
 	)
 	(no_connect
-		(at 152.4 59.69)
-		(uuid "2ac5c205-8800-4c11-9594-33833a87637c")
-	)
-	(no_connect
 		(at 152.4 52.07)
 		(uuid "2d2898c2-1a3d-4657-a093-b924252f3668")
-	)
-	(no_connect
-		(at 152.4 52.07)
-		(uuid "2d2898c2-1a3d-4657-a093-b924252f3668")
-	)
-	(no_connect
-		(at 76.2 77.47)
-		(uuid "453a2e69-ebf2-49a3-af87-a0d01c24357b")
 	)
 	(no_connect
 		(at 76.2 77.47)
@@ -2302,20 +2230,8 @@
 		(uuid "4a84b3f7-500f-4e55-97c2-ebf7a4f8bc6e")
 	)
 	(no_connect
-		(at 152.4 77.47)
-		(uuid "4a84b3f7-500f-4e55-97c2-ebf7a4f8bc6e")
-	)
-	(no_connect
 		(at 152.4 62.23)
 		(uuid "4ef30418-a274-436b-81b9-72c319afb0a0")
-	)
-	(no_connect
-		(at 152.4 62.23)
-		(uuid "4ef30418-a274-436b-81b9-72c319afb0a0")
-	)
-	(no_connect
-		(at 152.4 72.39)
-		(uuid "5bbcb081-417d-410e-9090-e564441ad83c")
 	)
 	(no_connect
 		(at 152.4 72.39)
@@ -2326,14 +2242,6 @@
 		(uuid "70ca7724-0902-4211-bc9a-ee3201591e57")
 	)
 	(no_connect
-		(at 152.4 57.15)
-		(uuid "70ca7724-0902-4211-bc9a-ee3201591e57")
-	)
-	(no_connect
-		(at 76.2 80.01)
-		(uuid "a60c1c37-fec1-49ad-ab3e-cfbf558d86a6")
-	)
-	(no_connect
 		(at 76.2 80.01)
 		(uuid "a60c1c37-fec1-49ad-ab3e-cfbf558d86a6")
 	)
@@ -2342,26 +2250,8 @@
 		(uuid "b20e5748-1be4-467f-8bdb-4532a2439be2")
 	)
 	(no_connect
-		(at 152.4 64.77)
-		(uuid "b20e5748-1be4-467f-8bdb-4532a2439be2")
-	)
-	(no_connect
 		(at 152.4 54.61)
 		(uuid "fb432697-3982-4a0f-9d60-2f85cfdf574d")
-	)
-	(no_connect
-		(at 152.4 54.61)
-		(uuid "fb432697-3982-4a0f-9d60-2f85cfdf574d")
-	)
-	(wire
-		(pts
-			(xy 152.4 49.53) (xy 177.8 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cad0bfd-4313-4676-8d39-fcd1eebf3ae7")
 	)
 	(wire
 		(pts
@@ -2385,16 +2275,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 87.63) (xy 60.96 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6bfd22-e307-4183-b8b8-f59a82f687cb")
-	)
-	(wire
-		(pts
 			(xy 115.57 43.18) (xy 115.57 62.23)
 		)
 		(stroke
@@ -2402,26 +2282,6 @@
 			(type default)
 		)
 		(uuid "1ecf01c3-0156-4943-a076-345c9359230c")
-	)
-	(wire
-		(pts
-			(xy 115.57 43.18) (xy 115.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ecf01c3-0156-4943-a076-345c9359230c")
-	)
-	(wire
-		(pts
-			(xy 115.57 86.36) (xy 132.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22efae04-02b9-4cec-b420-4dcdcb959764")
 	)
 	(wire
 		(pts
@@ -2445,16 +2305,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 62.23) (xy 115.57 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca4c056-f224-4682-bb0a-bffb961452de")
-	)
-	(wire
-		(pts
 			(xy 114.3 54.61) (xy 116.84 54.61)
 		)
 		(stroke
@@ -2462,26 +2312,6 @@
 			(type default)
 		)
 		(uuid "36a6ab15-f16c-4002-9c09-254fac431806")
-	)
-	(wire
-		(pts
-			(xy 114.3 54.61) (xy 116.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a6ab15-f16c-4002-9c09-254fac431806")
-	)
-	(wire
-		(pts
-			(xy 86.36 57.15) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e13fb2-dc2d-47c4-b233-2f1cdaf79a24")
 	)
 	(wire
 		(pts
@@ -2505,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 54.61) (xy 90.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46bde4cd-ab12-4d7b-a255-b9d7f3f7f6b8")
-	)
-	(wire
-		(pts
 			(xy 97.79 36.83) (xy 97.79 49.53)
 		)
 		(stroke
@@ -2522,26 +2342,6 @@
 			(type default)
 		)
 		(uuid "4c395045-b00b-4c92-a7ce-04473697e02b")
-	)
-	(wire
-		(pts
-			(xy 97.79 36.83) (xy 97.79 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c395045-b00b-4c92-a7ce-04473697e02b")
-	)
-	(wire
-		(pts
-			(xy 86.36 77.47) (xy 86.36 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e88ec83-af72-46a1-8cf5-3c29bc55b2f1")
 	)
 	(wire
 		(pts
@@ -2565,16 +2365,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 62.23) (xy 115.57 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56a56754-3516-42e0-b338-928b45b44e83")
-	)
-	(wire
-		(pts
 			(xy 76.2 62.23) (xy 76.2 64.77)
 		)
 		(stroke
@@ -2582,26 +2372,6 @@
 			(type default)
 		)
 		(uuid "611eb74e-dd16-4184-9fdf-95144e8691ad")
-	)
-	(wire
-		(pts
-			(xy 76.2 62.23) (xy 76.2 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611eb74e-dd16-4184-9fdf-95144e8691ad")
-	)
-	(wire
-		(pts
-			(xy 90.17 77.47) (xy 90.17 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658a2153-7f9c-4cd5-af1b-e61887acae81")
 	)
 	(wire
 		(pts
@@ -2625,16 +2395,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 49.53) (xy 97.79 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c550c4-7330-4b9b-b926-288f0ee08f13")
-	)
-	(wire
-		(pts
 			(xy 76.2 67.31) (xy 76.2 69.85)
 		)
 		(stroke
@@ -2642,26 +2402,6 @@
 			(type default)
 		)
 		(uuid "70b6bbcc-bcb2-4ede-b842-06cca954679c")
-	)
-	(wire
-		(pts
-			(xy 76.2 67.31) (xy 76.2 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b6bbcc-bcb2-4ede-b842-06cca954679c")
-	)
-	(wire
-		(pts
-			(xy 76.2 54.61) (xy 90.17 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81be7562-5543-4b51-a237-b6eb6d3eb7bc")
 	)
 	(wire
 		(pts
@@ -2685,16 +2425,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 132.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8353f039-9d9c-49b1-b9fb-11bc41731517")
-	)
-	(wire
-		(pts
 			(xy 87.63 87.63) (xy 60.96 87.63)
 		)
 		(stroke
@@ -2702,26 +2432,6 @@
 			(type default)
 		)
 		(uuid "89e5fd26-a5b3-44c4-9aed-c4ef61153bae")
-	)
-	(wire
-		(pts
-			(xy 87.63 87.63) (xy 60.96 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e5fd26-a5b3-44c4-9aed-c4ef61153bae")
-	)
-	(wire
-		(pts
-			(xy 115.57 82.55) (xy 115.57 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8baf463c-0a0f-403e-b94b-46cda0a0989a")
 	)
 	(wire
 		(pts
@@ -2745,16 +2455,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 64.77) (xy 77.47 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94649164-f664-4c63-874e-15c546d851fb")
-	)
-	(wire
-		(pts
 			(xy 137.16 86.36) (xy 137.16 85.09)
 		)
 		(stroke
@@ -2762,26 +2462,6 @@
 			(type default)
 		)
 		(uuid "9b588726-091e-44bd-82d2-76023996db55")
-	)
-	(wire
-		(pts
-			(xy 137.16 86.36) (xy 137.16 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b588726-091e-44bd-82d2-76023996db55")
-	)
-	(wire
-		(pts
-			(xy 86.36 67.31) (xy 86.36 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a37d5e20-3de9-4494-9d92-338a2fc56b4d")
 	)
 	(wire
 		(pts
@@ -2805,16 +2485,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 107.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf64ebd-4eda-42b7-b31c-f66d48e1a922")
-	)
-	(wire
-		(pts
 			(xy 115.57 43.18) (xy 107.95 43.18)
 		)
 		(stroke
@@ -2822,26 +2492,6 @@
 			(type default)
 		)
 		(uuid "ca6f4bdd-6992-43d6-bf86-e6efcb360a62")
-	)
-	(wire
-		(pts
-			(xy 115.57 43.18) (xy 107.95 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6f4bdd-6992-43d6-bf86-e6efcb360a62")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 116.84 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4739246-b2b1-4536-80ac-4294e0d326e3")
 	)
 	(wire
 		(pts
@@ -2865,26 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 67.31) (xy 77.47 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d761af0f-01bf-493c-a6ad-19dcb55427e1")
-	)
-	(wire
-		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d81ce7e2-299e-4310-aad5-f3e709cbada5")
-	)
-	(wire
-		(pts
 			(xy 134.62 86.36) (xy 137.16 86.36)
 		)
 		(stroke
@@ -2905,16 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 177.8 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "decaaac2-f1c3-4415-beeb-14ae4960b62c")
-	)
-	(wire
-		(pts
 			(xy 87.63 87.63) (xy 87.63 95.25)
 		)
 		(stroke
@@ -2922,26 +2542,6 @@
 			(type default)
 		)
 		(uuid "e106673c-0e08-4d95-b612-89a72c0f6b77")
-	)
-	(wire
-		(pts
-			(xy 87.63 87.63) (xy 87.63 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e106673c-0e08-4d95-b612-89a72c0f6b77")
-	)
-	(wire
-		(pts
-			(xy 132.08 86.36) (xy 132.08 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead05f83-f951-4440-a7d5-ac45b10988ca")
 	)
 	(wire
 		(pts
@@ -3280,7 +2880,14 @@
 		(pin "1"
 			(uuid "e94c16b5-3b69-4ab8-ad9b-12899cdbe81f")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0259")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3342,7 +2949,14 @@
 		(pin "2"
 			(uuid "3930bed9-a536-4226-bb1a-731cd966c153")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3354,7 +2968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05c115a4-ac54-4fc5-a38c-a18ddd877093")
-		(property "Reference" "#PWR0256"
+		(property "Reference" "#PWR0265"
 			(at 115.57 46.99 0)
 			(effects
 				(font
@@ -3401,7 +3015,14 @@
 		(pin "1"
 			(uuid "341382a1-74a8-4f4a-8b37-dd91b6912429")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0265")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3463,7 +3084,14 @@
 		(pin "2"
 			(uuid "a40eaaf5-a2de-4ba3-89ca-1ae4f0a23886")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -3475,7 +3103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "181776a9-61d0-4b43-9eb9-f7e4993ff67e")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0262"
 			(at 83.82 53.34 0)
 			(effects
 				(font
@@ -3522,7 +3150,14 @@
 		(pin "1"
 			(uuid "1614b442-5d20-4088-9bda-29319d205ddb")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0262")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -3533,7 +3168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26036bc5-abb0-4093-a565-4d3237512782")
-		(property "Reference" "#PWR0257"
+		(property "Reference" "#PWR0266"
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -3580,7 +3215,14 @@
 		(pin "1"
 			(uuid "182cfc1b-3d7e-4e98-accd-a76f4c99f877")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0266")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3642,7 +3284,14 @@
 		(pin "2"
 			(uuid "a40eaaf5-a2de-4ba3-89ca-1ae4f0a23886")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_USB:FT231XS")
@@ -3758,7 +3407,14 @@
 		(pin "9"
 			(uuid "7ea6738c-cd03-4d52-9f54-066335128c8d")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3817,7 +3473,14 @@
 		(pin "1"
 			(uuid "2bf82a00-ee8c-4062-a55a-06456473e68b")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3880,7 +3543,14 @@
 		(pin "2"
 			(uuid "bb958c05-c896-4926-aed3-cf99dc1c9b76")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3939,7 +3609,14 @@
 		(pin "1"
 			(uuid "428f30d9-9855-4c99-b803-52a348cc7246")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3951,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59e7c6a4-5b7c-4723-ade8-d8fb9dc51533")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR0273"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -3998,7 +3675,14 @@
 		(pin "1"
 			(uuid "e94c16b5-3b69-4ab8-ad9b-12899cdbe81f")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -4061,7 +3745,14 @@
 		(pin "2"
 			(uuid "40e60772-4bf7-49ec-bdd8-dd0078c172ca")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4123,7 +3814,14 @@
 		(pin "2"
 			(uuid "b61b99c5-6fb5-4a99-a7cd-11a94ef3e8e8")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -4203,7 +3901,14 @@
 		(pin "2"
 			(uuid "83c3c075-05f9-4b7e-8bb6-f29ed5ca62f8")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4265,7 +3970,14 @@
 		(pin "2"
 			(uuid "c515b695-90fb-4e07-8d24-a4457e8c6d27")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D")
@@ -4345,7 +4057,14 @@
 		(pin "2"
 			(uuid "83c3c075-05f9-4b7e-8bb6-f29ed5ca62f8")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D114")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -4451,7 +4170,14 @@
 		(pin "B12"
 			(uuid "3e6d7524-5ccf-4207-a5c8-f52f915873d1")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4463,7 +4189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d8b370-e6af-4a82-ae58-233dcc77c25b")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR0270"
 			(at 165.1 62.23 0)
 			(effects
 				(font
@@ -4510,7 +4236,14 @@
 		(pin "1"
 			(uuid "1d5b094b-c114-4b36-b789-891361d7e248")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0270")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4573,7 +4306,14 @@
 		(pin "2"
 			(uuid "05e81584-3eaa-412d-89c4-8e2a2a3e3699")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -4631,7 +4371,14 @@
 		(pin "1"
 			(uuid "182cfc1b-3d7e-4e98-accd-a76f4c99f877")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4694,7 +4441,14 @@
 		(pin "2"
 			(uuid "bb958c05-c896-4926-aed3-cf99dc1c9b76")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4753,7 +4507,14 @@
 		(pin "1"
 			(uuid "2238dae1-a5ee-40a8-bde9-b097d694fbb4")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4765,7 +4526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93900021-3b45-434d-b04c-90aa83e852aa")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR0264"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -4812,7 +4573,14 @@
 		(pin "1"
 			(uuid "2bf82a00-ee8c-4062-a55a-06456473e68b")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0264")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_USB:FT231XS")
@@ -4928,7 +4696,14 @@
 		(pin "9"
 			(uuid "7ea6738c-cd03-4d52-9f54-066335128c8d")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -4991,7 +4766,14 @@
 		(pin "2"
 			(uuid "cf5a7060-8f90-47c7-87a0-110f162ebdef")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5003,7 +4785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d43b33f-565a-4ffb-a933-d8f3e4342b68")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR0269"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -5050,7 +4832,14 @@
 		(pin "1"
 			(uuid "b79f56f2-418d-4307-871f-6e8d034b132c")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5113,7 +4902,14 @@
 		(pin "2"
 			(uuid "05e81584-3eaa-412d-89c4-8e2a2a3e3699")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R92")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5172,7 +4968,14 @@
 		(pin "1"
 			(uuid "b79f56f2-418d-4307-871f-6e8d034b132c")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5184,7 +4987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a30fd850-6f20-4556-aedb-0a3ff1f7c478")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0268"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -5231,7 +5034,14 @@
 		(pin "1"
 			(uuid "8b19e687-95b6-48bc-9043-c216b494287d")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5293,7 +5103,14 @@
 		(pin "2"
 			(uuid "c515b695-90fb-4e07-8d24-a4457e8c6d27")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -5356,7 +5173,14 @@
 		(pin "2"
 			(uuid "cf5a7060-8f90-47c7-87a0-110f162ebdef")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5418,7 +5242,14 @@
 		(pin "2"
 			(uuid "af3c942b-c37a-4e0c-8ac4-7a53dc5a1a2e")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5477,7 +5308,14 @@
 		(pin "1"
 			(uuid "341382a1-74a8-4f4a-8b37-dd91b6912429")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5539,7 +5377,14 @@
 		(pin "2"
 			(uuid "3930bed9-a536-4226-bb1a-731cd966c153")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5551,7 +5396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9569364-01fd-4ba4-8db5-b92e5e721ce8")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0267"
 			(at 86.36 83.82 0)
 			(effects
 				(font
@@ -5598,7 +5443,14 @@
 		(pin "1"
 			(uuid "428f30d9-9855-4c99-b803-52a348cc7246")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0267")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5660,7 +5512,14 @@
 		(pin "2"
 			(uuid "b61b99c5-6fb5-4a99-a7cd-11a94ef3e8e8")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5722,7 +5581,14 @@
 		(pin "2"
 			(uuid "af3c942b-c37a-4e0c-8ac4-7a53dc5a1a2e")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5781,7 +5647,14 @@
 		(pin "1"
 			(uuid "8b19e687-95b6-48bc-9043-c216b494287d")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0252")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5793,7 +5666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2627bf3-e3b9-4d9e-95ba-d100b1f0e276")
-		(property "Reference" "#PWR0258"
+		(property "Reference" "#PWR0263"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -5840,7 +5713,14 @@
 		(pin "1"
 			(uuid "2238dae1-a5ee-40a8-bde9-b097d694fbb4")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0263")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -5903,7 +5783,14 @@
 		(pin "2"
 			(uuid "40e60772-4bf7-49ec-bdd8-dd0078c172ca")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "D116")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -5962,7 +5849,14 @@
 		(pin "1"
 			(uuid "1d5b094b-c114-4b36-b789-891361d7e248")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0260")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
@@ -6068,7 +5962,14 @@
 		(pin "B12"
 			(uuid "3e6d7524-5ccf-4207-a5c8-f52f915873d1")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "J29")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -6127,6 +6028,13 @@
 		(pin "1"
 			(uuid "1614b442-5d20-4088-9bda-29319d205ddb")
 		)
-		(instances)
+		(instances
+			(project "MRIRobot_PCB"
+				(path "/db6b3c85-b628-4366-b920-775f0ebb1cd9/db868b9c-3101-4066-96b0-e9597b9a30f1"
+					(reference "#PWR0253")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

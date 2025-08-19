@@ -907,6 +907,14 @@
     [
       "db6b3c85-b628-4366-b920-775f0ebb1cd9",
       "Root"
+    ],
+    [
+      "144ffdff-ae45-4a87-8d19-7468aecb22fc",
+      "EncoderBlock"
+    ],
+    [
+      "db868b9c-3101-4066-96b0-e9597b9a30f1",
+      "USBC Connector"
     ]
   ],
   "text_variables": {}
