@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "49609d12-4737-457a-b382-7b4ec18f8d7a")
+	(uuid "5433c83e-cf90-4292-9a4f-7ff3423c7192")
 	(paper "A3")
 	(lib_symbols
 		(symbol "CMOD_FPGA:CMOD_A7"
