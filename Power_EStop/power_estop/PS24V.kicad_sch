@@ -232,6 +232,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 67.31 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "147191c2-9383-4f08-84d3-f0d304bb712e")
+	)
+	(junction
+		(at 87.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77e2b44d-4add-4a10-888b-959ecd5335ff")
+	)
+	(wire
+		(pts
+			(xy 67.31 72.39) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc1ab4a-3d61-41a6-94ce-a17d5fc6b4e4")
+	)
 	(wire
 		(pts
 			(xy 73.66 81.28) (xy 69.85 81.28)
@@ -244,13 +266,63 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 86.36) (xy 69.85 86.36)
+			(xy 87.63 83.82) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad28fec-9ee7-42f8-8bdd-9ccb8139373b")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbdbf2a-3aa2-4e3a-9e7f-e5fc50950e2f")
+	)
+	(wire
+		(pts
+			(xy 90.17 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4640e363-6163-4a00-8b74-91dbd3eadbc3")
+	)
+	(wire
+		(pts
+			(xy 59.69 86.36) (xy 67.31 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54d99e3d-f7a9-42b4-9e84-eb8b130e8243")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 67.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592f333b-bed6-4793-b070-98b605de93c6")
+	)
+	(wire
+		(pts
+			(xy 67.31 86.36) (xy 69.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8f86a6-9734-4ee3-9f73-659868b60a31")
 	)
 	(wire
 		(pts
@@ -264,7 +336,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 91.44) (xy 93.98 91.44)
+			(xy 80.01 91.44) (xy 87.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -315,6 +387,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 90.17 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2db3a9e2-3d8a-4fe5-ad23-0582ca6e8295")
+	)
+	(hierarchical_label "+24V"
+		(shape output)
+		(at 69.85 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39a208a8-6a52-4c8b-b8b2-ff0181150721")
 	)
 	(symbol
 		(lib_id "power:GND")
