@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MRI_Robot_Library")(type "KiCad")(uri "C:/Users/ronf/research/MRI-RobotOct24/MRIRobotProject/MRIRobot/PCB/MRI_Robot_Library.kicad_sym")(options "")(descr ""))
+)
