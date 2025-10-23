@@ -10,5 +10,5 @@ PC boards for MRI robot control, specifically for STM32 motherboard
 * Motor_Joint_Splitter (mounted on robot arm)
 <img src="reroute_arm.png" alt="Motor_Joint_Splitter" width=400>
 
-* Motor_reroute (at motor controller. Splits Tekcelo control signal to use )
+* Motor_reroute (at motor controller. Splits Tekcelo control signal to use ethernet for a pair of encoders, and 3 wire sin/cos/gnd cable for 250V )
 <img src="reroute_MC.png" alt="Motor_reroute" width=400>
