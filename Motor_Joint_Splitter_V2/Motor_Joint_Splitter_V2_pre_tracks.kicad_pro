@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -467,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Motor_Joint_Splitter.kicad_pro",
+    "filename": "Motor_Joint_Splitter_V2.kicad_pro",
     "version": 3
   },
   "net_settings": {
