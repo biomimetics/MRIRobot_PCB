@@ -1,27 +1,27 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "S8B-ZR_LFSN" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "901303106" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "S8B-ZR LFSN" (id 1) (at 0 0 0)
+    (property "Value" "901303106" (id 1) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "CONN_S8B-ZR_JST" (id 2) (at 0 0 0)
+    (property "Footprint" "CONN_SDA-90130_RA_06_MOL" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "S8B-ZR LFSN" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/901303106?display=pdf" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "ki_keywords" "S8B-ZR (LF)(SN)" (id 4) (at 0 0 0)
+    (property "ki_keywords" "901303106" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_fp_filters" "CONN_S8B-ZR_JST" (id 6) (at 0 0 0)
+    (property "ki_fp_filters" "CONN_SDA-90130_RA_06_MOL" (id 6) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "S8B-ZR_LFSN_1_1"
+    (symbol "901303106_1_1"
       (polyline
         (pts
           (xy 10.16 0)
@@ -66,22 +66,6 @@
         (pts
           (xy 10.16 -12.7)
           (xy 5.08 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -15.24)
-          (xy 5.08 -15.24)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 5.08 -17.78)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -136,22 +120,6 @@
       )
       (polyline
         (pts
-          (xy 10.16 -15.24)
-          (xy 8.89 -14.393334)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 8.89 -16.933334)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 10.16 0)
           (xy 8.89 -0.846666)
         )
@@ -200,39 +168,23 @@
       )
       (polyline
         (pts
-          (xy 10.16 -15.24)
-          (xy 8.89 -16.086666)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 8.89 -18.626666)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 5.08 2.54)
-          (xy 5.08 -20.32)
+          (xy 5.08 -15.24)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 5.08 -20.32)
-          (xy 12.7 -20.32)
+          (xy 5.08 -15.24)
+          (xy 12.7 -15.24)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 12.7 -20.32)
+          (xy 12.7 -15.24)
           (xy 12.7 2.54)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
@@ -269,17 +221,9 @@
       (pin unspecified line (at 0 -12.7 0) (length 5.08)
         (name "6" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 0 -15.24 0) (length 5.08)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 0 -17.78 0) (length 5.08)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "S8B-ZR_LFSN_1_2"
+    (symbol "901303106_1_2"
       (polyline
         (pts
           (xy 7.62 0)
@@ -324,22 +268,6 @@
         (pts
           (xy 7.62 -12.7)
           (xy 5.08 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -15.24)
-          (xy 5.08 -15.24)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -17.78)
-          (xy 5.08 -17.78)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -394,22 +322,6 @@
       )
       (polyline
         (pts
-          (xy 7.62 -15.24)
-          (xy 8.89 -14.393334)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -17.78)
-          (xy 8.89 -16.933334)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 7.62 0)
           (xy 8.89 -0.846666)
         )
@@ -458,39 +370,23 @@
       )
       (polyline
         (pts
-          (xy 7.62 -15.24)
-          (xy 8.89 -16.086666)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -17.78)
-          (xy 8.89 -18.626666)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
           (xy 5.08 2.54)
-          (xy 5.08 -20.32)
+          (xy 5.08 -15.24)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 5.08 -20.32)
-          (xy 12.7 -20.32)
+          (xy 5.08 -15.24)
+          (xy 12.7 -15.24)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 12.7 -20.32)
+          (xy 12.7 -15.24)
           (xy 12.7 2.54)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
@@ -527,14 +423,6 @@
       (pin unspecified line (at 0 -12.7 0) (length 5.08)
         (name "6" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 0 -15.24 0) (length 5.08)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 0 -17.78 0) (length 5.08)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
     )
   )

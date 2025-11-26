@@ -1,4 +1,4 @@
-26891113640828843
+26898170207040075
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106966,24 +106966,52 @@ Varistor VF
 0
 2
 2
-ethernet_connector
+splitter_parts
 AMPHENOL_54602-908LF
 
 
 0
 8
 8
-line_driver
-SOP65P640X120-20N
+splitter_parts
+CONN_70553-XXXX_05_MOL
 
 
 0
-20
-20
-motor_power_connector
+5
+5
+splitter_parts
+CONN_7024708xx_MOL
+
+702470851 
+0
+8
+8
+splitter_parts
+CONN_705550000-SD_08_MOL
+
+705550007 
+0
+8
+8
+splitter_parts
 CONN_SDA-41792_M450_03_MOL
 
 26605030 
 0
 3
 3
+splitter_parts
+CONN_SDA-90130_RA_06_MOL
+
+901303106 
+0
+6
+6
+splitter_parts
+line_driver_SOP65P640X120-20N
+
+
+0
+20
+20

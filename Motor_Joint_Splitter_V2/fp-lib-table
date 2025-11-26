@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "splitter_parts")(type "KiCad")(uri "${KIPRJMOD}/resources/splitter_parts.pretty")(options "")(descr ""))
+)
