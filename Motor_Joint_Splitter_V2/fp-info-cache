@@ -1,4 +1,4 @@
-26898170207040075
+26899934829110048
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107008,6 +107008,13 @@ CONN_SDA-90130_RA_06_MOL
 0
 6
 6
+splitter_parts
+TE_292206-8
+
+
+0
+8
+8
 splitter_parts
 line_driver_SOP65P640X120-20N
 
