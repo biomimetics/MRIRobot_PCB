@@ -507,7 +507,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Motor_Adapt_M.step",
+      "step": "Motor_Joint_Board.glb",
       "svg": "",
       "vrml": ""
     },
