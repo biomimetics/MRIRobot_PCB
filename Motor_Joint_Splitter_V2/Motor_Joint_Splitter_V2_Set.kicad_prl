@@ -45,21 +45,21 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffffe",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffdffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Motor_Joint_Splitter_V2.kicad_prl",
+    "filename": "Motor_Joint_Splitter_V2_Set.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
