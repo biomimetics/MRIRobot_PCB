@@ -1,0 +1,37 @@
+Ultrasonic Motor Electrical Connect Possible Issues
+March 21, 2026
+
+1. J7 uses twisted pairs.
+C_I_Out and C_B_out are on lines 3,4. Is there capacitive coupling into the
+index bit from B channel- causing full revolution position errors?
+
+2. capacitance per-pair 50 pF/m
+capacitance to ground 30 pF/m.
+So for 20 m, would have 1000 pF. RC (120)(1e-9) = 120 ns, not too slow.
+peak driver current: 5V/120 ohm = 40 mA, 
+C dv/dt = (1 nF)(5V/100 ns) = 50 mA, so expect 
+74ACT244 driver saturation. 74ACT244 capable of +- 24 mA current.
+==> can test line driver and cable using function generator into
+
+3. 74ACT244MTCX output O3 pin 12 and O7 pin 9 are shorted to ground, and 
+should be left floating to avoid shorting on startup.
+(These pins could be cut off chip to disconnect.)
+
+4. PCB SEA_A_Out_2 goes under resistor and adjacent to SEA_I_Out_2
+
+5. Reverse Leakage Current @ VRWM H5VHD3BC- ok max 0.2 uA.
+
+6. Verify that clamping installed is actually BAT54SDW
+
+7. 74ACT244: C2 should be as close as possible to pin 20 and pin 10.
+Data sheet says: ``The bypass capacitor should be installed as close to the 
+power terminal as possible for the best results'' but that would assume
+a nice low impedance ground plane with short connection to pin 10.
+Ground plane to pin 10 seems a bit long distance, giving high impedance path).
+Min switching 1.5 ns, typ 7 ns
+Inputs are not overvoltage tolerant and must be limited to VCC 
+(short wires to motor, hopefully not problem).
+
+
+
+
