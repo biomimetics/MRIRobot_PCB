@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.75
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -189,7 +189,7 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
+        0.2,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -457,6 +457,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -467,7 +468,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Motor_quick_connect.kicad_pro",
+    "filename": "Motor_Joint_Splitter_V2_backup.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -506,7 +507,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Motor_Adapt_C.step",
+      "step": "Motor_Adapt_M.step",
       "svg": "",
       "vrml": ""
     },
