@@ -354,6 +354,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:BAT54SDW"
 			(pin_names
 				(offset 1.016)
@@ -4263,6 +4403,18 @@
 		(uuid 4dd712bc-980c-4391-8d26-a4317b1fcce2)
 	)
 	(rectangle
+		(start 195.58 15.24)
+		(end 237.49 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 76fb1922-de40-4a79-a251-af68f54122e1)
+	)
+	(rectangle
 		(start 104.14 59.69)
 		(end 193.04 101.6)
 		(stroke
@@ -4275,8 +4427,8 @@
 		(uuid 79c47b0f-cddb-446d-9222-7b95fd7aacd8)
 	)
 	(rectangle
-		(start 13.97 104.14)
-		(end 73.66 173.99)
+		(start 15.24 104.14)
+		(end 101.6 173.99)
 		(stroke
 			(width 0)
 			(type default)
@@ -4287,8 +4439,8 @@
 		(uuid a76ba8fb-d205-4f27-8e27-ecf2ed79b4c8)
 	)
 	(rectangle
-		(start 74.93 104.14)
-		(end 115.57 139.7)
+		(start 104.14 104.14)
+		(end 144.78 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -4310,6 +4462,18 @@
 		)
 		(uuid bf354dba-0d33-4414-8bfc-edf6af6c8051)
 	)
+	(rectangle
+		(start 240.03 15.24)
+		(end 281.94 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7ab6555-4347-491f-90d6-79eb341f6de5)
+	)
 	(text "SEA and Motor Encoder Connectors"
 		(exclude_from_sim no)
 		(at 17.018 64.77 0)
@@ -4325,7 +4489,7 @@
 	)
 	(text "Line Drivers"
 		(exclude_from_sim no)
-		(at 21.336 108.712 0)
+		(at 17.272 110.236 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4349,6 +4513,19 @@
 		)
 		(uuid "9da6a167-977c-481a-9bf9-4525affe6c60")
 	)
+	(text "Motor Encoder\nTest Points\n"
+		(exclude_from_sim no)
+		(at 198.12 25.654 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a64a01a9-aa0c-4a36-8fa1-558b45cdd174")
+	)
 	(text "Motor Side\n"
 		(exclude_from_sim no)
 		(at 105.156 65.278 0)
@@ -4364,7 +4541,7 @@
 	)
 	(text "Output Resistors"
 		(exclude_from_sim no)
-		(at 76.454 109.728 0)
+		(at 105.664 109.728 0)
 		(effects
 			(font
 				(size 3 3)
@@ -4387,6 +4564,19 @@
 			(justify left bottom)
 		)
 		(uuid "f9acd3a7-d1ce-456b-b76e-4ce98bd19a55")
+	)
+	(text "Mounting Pads\n"
+		(exclude_from_sim no)
+		(at 241.808 21.082 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb4a6cef-e2b6-449d-9e28-92d57b416b9a")
 	)
 	(junction
 		(at 34.29 87.63)
@@ -4419,6 +4609,12 @@
 		(uuid "338452f8-d065-44e9-ab01-731d17025c2e")
 	)
 	(junction
+		(at 25.4 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b05201d-4b9e-4167-b8c2-59ab2e68905b")
+	)
+	(junction
 		(at 76.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4431,7 +4627,7 @@
 		(uuid "615c4990-d4d9-4d73-bf83-3bc30dd76ca0")
 	)
 	(junction
-		(at 25.4 132.08)
+		(at 46.99 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62a80410-ca6d-40ee-99d0-e15d2857e4aa")
@@ -4531,6 +4727,16 @@
 			(type default)
 		)
 		(uuid "0423820a-c1fb-4182-87be-c42a10982cf3")
+	)
+	(wire
+		(pts
+			(xy 25.4 134.62) (xy 25.4 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121e9321-e26a-411f-b331-37244020afba")
 	)
 	(wire
 		(pts
@@ -4724,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 124.46) (xy 25.4 124.46)
+			(xy 25.4 124.46) (xy 46.99 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4844,6 +5050,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 124.46) (xy 25.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77c03bc-d2e8-4614-b252-3d798f721fbe")
+	)
+	(wire
+		(pts
 			(xy 135.89 77.47) (xy 147.32 77.47)
 		)
 		(stroke
@@ -4954,7 +5170,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 129.54) (xy 25.4 132.08)
+			(xy 46.99 129.54) (xy 46.99 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4963,7 +5179,7 @@
 		(uuid "f98b792f-f871-42ef-8f2c-74365c04d483")
 	)
 	(label "C_I_Out"
-		(at 60.96 134.62 0)
+		(at 82.55 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4993,7 +5209,7 @@
 		(uuid "10f22765-94a2-434f-91ba-e24866ac3eac")
 	)
 	(label "C_A_Out"
-		(at 91.44 116.84 180)
+		(at 120.65 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5023,7 +5239,7 @@
 		(uuid "23fcc2a3-a491-4f17-8ff7-6eff715b92ec")
 	)
 	(label "C_B_Out"
-		(at 60.96 137.16 0)
+		(at 82.55 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5043,7 +5259,7 @@
 		(uuid "2fd5bfd9-eef7-442e-b897-80bd283b1a41")
 	)
 	(label "C_A_Out_2"
-		(at 99.06 116.84 0)
+		(at 128.27 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5073,7 +5289,7 @@
 		(uuid "45e3ec0a-2010-4e2a-8f89-24f9e1342168")
 	)
 	(label "C_I"
-		(at 25.4 147.32 180)
+		(at 46.99 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5083,7 +5299,7 @@
 		(uuid "46cad998-787a-4cca-b81f-ac776be7f6db")
 	)
 	(label "SEA_B"
-		(at 25.4 137.16 180)
+		(at 46.99 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5093,7 +5309,7 @@
 		(uuid "4de27a8d-5e7b-45e0-85d8-4adf30290bca")
 	)
 	(label "SEA_A_Out_2"
-		(at 99.06 128.27 0)
+		(at 128.27 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5113,7 +5329,7 @@
 		(uuid "67d2993e-ea7d-41eb-ae6e-6092d21c2fd2")
 	)
 	(label "C_I_Out_2"
-		(at 99.06 124.46 0)
+		(at 128.27 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5143,7 +5359,7 @@
 		(uuid "7dc90af7-27ca-464b-b716-ce4cb4fb3449")
 	)
 	(label "C_B"
-		(at 25.4 149.86 180)
+		(at 46.99 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5173,7 +5389,7 @@
 		(uuid "87ad1d43-420f-498e-b099-28340b709f57")
 	)
 	(label "SEA_I_Out"
-		(at 91.44 135.89 180)
+		(at 120.65 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5203,7 +5419,7 @@
 		(uuid "9bbab101-0613-4ccf-9735-9fddb0ef9658")
 	)
 	(label "C_A_Out_2"
-		(at 212.09 29.21 180)
+		(at 209.55 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5213,7 +5429,7 @@
 		(uuid "9e6d93ef-650f-45a9-b6dd-15d60c5e0d08")
 	)
 	(label "SEA_B_Out_2"
-		(at 99.06 132.08 0)
+		(at 128.27 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5223,7 +5439,7 @@
 		(uuid "a01e4abb-3689-4385-bc69-5b56689d09e3")
 	)
 	(label "SEA_I"
-		(at 25.4 142.24 180)
+		(at 46.99 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5243,7 +5459,7 @@
 		(uuid "ab09f2c8-37f5-45c9-b711-fc4c39761fbe")
 	)
 	(label "SEA_A_Out"
-		(at 60.96 127 0)
+		(at 82.55 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5253,7 +5469,7 @@
 		(uuid "ab9a6180-d6e9-4cdb-9590-8ef6a810d846")
 	)
 	(label "SEA_A_Out"
-		(at 91.44 128.27 180)
+		(at 120.65 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5263,7 +5479,7 @@
 		(uuid "ae73b9f4-11e6-4b1d-a7d3-6bd3ab6abdb1")
 	)
 	(label "SEA_I_Out_2"
-		(at 99.06 135.89 0)
+		(at 128.27 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5293,7 +5509,7 @@
 		(uuid "bbf1a5a2-64c1-460c-8066-126d7d8701ea")
 	)
 	(label "C_B_Out_2"
-		(at 212.09 34.29 180)
+		(at 209.55 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5303,7 +5519,7 @@
 		(uuid "bdd04be9-5322-4872-8b7a-e2d9d90b70e5")
 	)
 	(label "C_I_Out"
-		(at 91.44 124.46 180)
+		(at 120.65 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5529,7 @@
 		(uuid "be34924c-ef68-43fd-aa50-dfe7d266ff9b")
 	)
 	(label "C_B_Out_2"
-		(at 99.06 120.65 0)
+		(at 128.27 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5323,7 +5539,7 @@
 		(uuid "c229e79c-9203-4206-9879-9e164832d280")
 	)
 	(label "SEA_I_Out"
-		(at 60.96 129.54 0)
+		(at 82.55 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5343,7 +5559,7 @@
 		(uuid "d230b723-313e-40fa-83e1-950e82129935")
 	)
 	(label "SEA_B_Out"
-		(at 60.96 124.46 0)
+		(at 82.55 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5353,7 +5569,7 @@
 		(uuid "d43ff75c-38fd-4636-9ed1-e006522d6738")
 	)
 	(label "C_A_Out"
-		(at 60.96 139.7 0)
+		(at 82.55 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5363,7 +5579,7 @@
 		(uuid "d9e497b1-ab98-482b-be81-a648ebc7db1f")
 	)
 	(label "C_B_Out"
-		(at 91.44 120.65 180)
+		(at 120.65 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5373,7 +5589,7 @@
 		(uuid "ddd4336a-f7fc-4142-8004-0f2de27778b8")
 	)
 	(label "SEA_A"
-		(at 25.4 139.7 180)
+		(at 46.99 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5403,7 +5619,7 @@
 		(uuid "f86a6e56-4cdb-46d4-ba06-9fe501732adf")
 	)
 	(label "SEA_B_Out"
-		(at 91.44 132.08 180)
+		(at 120.65 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5413,7 +5629,7 @@
 		(uuid "fa1eba21-dc81-4987-9dd8-c022b326e09b")
 	)
 	(label "C_A"
-		(at 25.4 152.4 180)
+		(at 46.99 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5450,7 +5666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 70.485 41.91 0)
 			(effects
 				(font
@@ -5547,7 +5763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 174.625 34.29 0)
 			(effects
 				(font
@@ -5684,7 +5900,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 120.65 90)
+		(at 124.46 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5692,7 +5908,7 @@
 		(dnp no)
 		(uuid "0ad05b40-2772-4dbf-9c76-46ee6d0e6bc7")
 		(property "Reference" "R13"
-			(at 95.25 120.65 90)
+			(at 124.46 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5916,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 122.682 90)
+			(at 124.46 122.682 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5709,7 +5925,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 122.428 90)
+			(at 124.46 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +5934,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5943,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5952,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5961,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5970,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5979,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5988,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5997,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +6006,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6015,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +6024,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6033,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6042,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +6051,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +6060,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6069,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +6078,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +6087,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5880,7 +6096,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 120.65 0)
+			(at 124.46 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 174.625 41.91 0)
 			(effects
 				(font
@@ -6367,6 +6583,72 @@
 				(path "/3db05b30-ca0c-4c9b-a71d-54ceaf5e03ab"
 					(reference "D6")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2154b8ea-b12e-4a37-9bfd-fe07461b5078")
+		(property "Reference" "#PWR010"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "460067a8-7c9b-4ae5-81b9-9d16d2105da6")
+		)
+		(instances
+			(project "Motor_Joint_Splitter_V3"
+				(path "/3db05b30-ca0c-4c9b-a71d-54ceaf5e03ab"
+					(reference "#PWR010")
+					(unit 1)
 				)
 			)
 		)
@@ -6507,7 +6789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 92.71 0)
+		(at 252.73 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6515,7 +6797,7 @@
 		(dnp no)
 		(uuid "26daf646-82ef-43ef-9e6d-2fa4e60b9ce7")
 		(property "Reference" "#PWR014"
-			(at 223.52 99.06 0)
+			(at 252.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6806,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 97.79 0)
+			(at 252.73 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 92.71 0)
+			(at 252.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6823,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 92.71 0)
+			(at 252.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6832,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 92.71 0)
+			(at 252.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +7142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 154.305 41.91 0)
 			(effects
 				(font
@@ -7706,7 +7988,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 212.09 39.37 0)
+		(at 209.55 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7715,7 +7997,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c1b5d0e-8a0a-4777-9f2b-db2d2c38339a")
 		(property "Reference" "TP3"
-			(at 215.9 36.5124 0)
+			(at 213.36 47.9424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +8006,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 215.9 39.0524 0)
+			(at 213.36 50.4824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +8015,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
-			(at 217.17 39.37 0)
+			(at 214.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +8024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 39.37 0)
+			(at 214.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +8033,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 212.09 39.37 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +8148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 90.805 41.91 0)
 			(effects
 				(font
@@ -8153,7 +8435,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 212.09 34.29 0)
+		(at 209.55 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8162,7 +8444,7 @@
 		(fields_autoplaced yes)
 		(uuid "53189f77-9384-4a3e-9d3f-3f3763bdb719")
 		(property "Reference" "TP2"
-			(at 215.9 31.4324 0)
+			(at 213.36 42.8624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +8453,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 215.9 33.9724 0)
+			(at 213.36 45.4024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,7 +8462,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
-			(at 217.17 34.29 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 34.29 0)
+			(at 214.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8198,7 +8480,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 212.09 34.29 0)
+			(at 209.55 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 90.805 34.29 0)
 			(effects
 				(font
@@ -8865,7 +9147,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 223.52 73.66 0)
+		(at 252.73 30.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8873,7 +9155,7 @@
 		(dnp no)
 		(uuid "78314ada-972f-4ec8-93b8-8097ca73eac3")
 		(property "Reference" "H2"
-			(at 226.06 71.1199 0)
+			(at 255.27 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +9164,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 212.344 68.072 0)
+			(at 241.554 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +9173,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 223.52 73.66 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +9182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 73.66 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9191,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 223.52 73.66 0)
+			(at 252.73 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8931,7 +9213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 144.78 270)
+		(at 46.99 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8939,7 +9221,7 @@
 		(dnp no)
 		(uuid "8298eeb9-7991-4232-8641-24fae8517b14")
 		(property "Reference" "#PWR019"
-			(at 19.05 144.78 0)
+			(at 40.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.352 144.526 90)
+			(at 43.942 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +9239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 144.78 0)
+			(at 46.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 144.78 0)
+			(at 46.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8975,7 +9257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 144.78 0)
+			(at 46.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 76.2 0)
+		(at 265.43 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9005,7 +9287,7 @@
 		(dnp no)
 		(uuid "8441afca-d6f5-47b1-aefd-ff190ac0f4f4")
 		(property "Reference" "#PWR07"
-			(at 236.22 82.55 0)
+			(at 265.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +9296,7 @@
 			)
 		)
 		(property "Value" "GND_M"
-			(at 236.22 81.28 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +9304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 76.2 0)
+			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +9313,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 76.2 0)
+			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +9322,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 76.2 0)
+			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9128,7 +9410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 39.37 270)
+		(at 209.55 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9137,7 +9419,7 @@
 		(fields_autoplaced yes)
 		(uuid "88c922dc-2aa2-4284-a68f-47afdcd7e237")
 		(property "Reference" "#PWR09"
-			(at 205.74 39.37 0)
+			(at 203.2 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9146,7 +9428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 39.3699 90)
+			(at 205.74 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9155,7 +9437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 39.37 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9164,7 +9446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 39.37 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,7 +9455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 39.37 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9195,7 +9477,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 124.46 90)
+		(at 124.46 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9203,7 +9485,7 @@
 		(dnp no)
 		(uuid "8ceab001-4bc8-4c99-adc3-daff8800d466")
 		(property "Reference" "R14"
-			(at 95.25 124.46 90)
+			(at 124.46 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9493,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 126.492 90)
+			(at 124.46 126.492 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9220,7 +9502,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 126.238 90)
+			(at 124.46 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +9520,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9529,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9538,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9547,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9556,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9565,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9574,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9583,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9310,7 +9592,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9601,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9610,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9619,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9628,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +9637,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9364,7 +9646,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9655,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9664,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9673,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 124.46 0)
+			(at 124.46 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9416,7 +9698,7 @@
 	)
 	(symbol
 		(lib_id "splitter_parts:line_driver_74ACT244MTCX")
-		(at 43.18 139.7 0)
+		(at 64.77 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9425,7 +9707,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8cc3de-231a-4f02-8673-a034545d431c")
 		(property "Reference" "U2"
-			(at 37.8195 117.3182 0)
+			(at 59.4095 117.3182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9717,7 @@
 			)
 		)
 		(property "Value" "74ACT244MTCX"
-			(at 43.18 116.84 0)
+			(at 64.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9725,7 @@
 			)
 		)
 		(property "Footprint" "splitter_parts:line_driver_SOP65P640X120-20N"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,7 +9744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9471,7 +9753,7 @@
 			)
 		)
 		(property "MPN" "74ACT244MTCX"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9763,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1607591"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9773,7 @@
 			)
 		)
 		(property "OC_NEWARK" "38C7771"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9501,7 +9783,7 @@
 			)
 		)
 		(property "SUPPLIER" "FAIRCHILD"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9793,7 @@
 			)
 		)
 		(property "PACKAGE" "TSSOP-20"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9803,7 @@
 			)
 		)
 		(property "LCSC" "C5496"
-			(at 43.18 139.7 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 92.71 0)
+		(at 265.43 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9608,7 +9890,7 @@
 		(dnp no)
 		(uuid "93950a8c-44d6-4c46-a16f-2c280424ca8b")
 		(property "Reference" "#PWR012"
-			(at 236.22 99.06 0)
+			(at 265.43 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 97.79 0)
+			(at 265.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 92.71 0)
+			(at 265.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 92.71 0)
+			(at 265.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 92.71 0)
+			(at 265.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9947,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 135.89 90)
+		(at 124.46 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9673,7 +9955,7 @@
 		(dnp no)
 		(uuid "9e83c15e-ea73-4c00-9f5b-a30899460113")
 		(property "Reference" "R17"
-			(at 95.25 135.89 90)
+			(at 124.46 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9963,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 138.43 90)
+			(at 124.46 138.43 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9690,7 +9972,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 137.668 90)
+			(at 124.46 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9981,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9708,7 +9990,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9999,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +10008,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +10017,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +10026,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +10035,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +10044,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +10053,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +10062,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +10071,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +10080,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +10089,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9816,7 +10098,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9825,7 +10107,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,7 +10116,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +10125,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +10134,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +10143,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 135.89 0)
+			(at 124.46 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 112.395 34.29 0)
 			(effects
 				(font
@@ -10202,7 +10484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 154.305 34.29 0)
 			(effects
 				(font
@@ -10273,7 +10555,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 154.94 270)
+		(at 46.99 154.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10281,7 +10563,7 @@
 		(dnp no)
 		(uuid "b4ee464b-ab70-43c7-9d2c-b5e1ebe19856")
 		(property "Reference" "#PWR020"
-			(at 19.05 154.94 0)
+			(at 40.64 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.352 154.686 90)
+			(at 43.942 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10599,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 154.94 0)
+			(at 46.99 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10365,7 +10647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 70.485 34.29 0)
 			(effects
 				(font
@@ -10436,7 +10718,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 132.08 90)
+		(at 124.46 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10444,7 +10726,7 @@
 		(dnp no)
 		(uuid "bc2c3eca-0f5f-4aac-a947-f29fe56205d4")
 		(property "Reference" "R16"
-			(at 94.996 132.08 90)
+			(at 124.206 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,7 +10734,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 133.858 90)
+			(at 124.46 133.858 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10461,7 +10743,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 133.858 90)
+			(at 124.46 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +10761,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10488,7 +10770,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10497,7 +10779,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10788,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10797,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +10806,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10815,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10824,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10551,7 +10833,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10560,7 +10842,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10569,7 +10851,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10578,7 +10860,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10869,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10596,7 +10878,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10605,7 +10887,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10896,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10623,7 +10905,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10632,7 +10914,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 132.08 0)
+			(at 124.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10939,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 128.27 90)
+		(at 124.46 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10665,7 +10947,7 @@
 		(dnp no)
 		(uuid "bf925c77-fcdb-43c5-bcf6-76a16656e1f1")
 		(property "Reference" "R15"
-			(at 95.25 128.27 90)
+			(at 124.46 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +10955,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 130.048 90)
+			(at 124.46 130.048 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -10682,7 +10964,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 130.048 90)
+			(at 124.46 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10973,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10982,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10709,7 +10991,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10718,7 +11000,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,7 +11009,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10736,7 +11018,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +11027,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +11036,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10763,7 +11045,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +11054,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,7 +11063,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +11072,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +11081,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +11090,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +11099,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +11108,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,7 +11117,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +11126,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +11135,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 128.27 0)
+			(at 124.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +11160,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 236.22 73.66 0)
+		(at 265.43 30.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10886,7 +11168,7 @@
 		(dnp no)
 		(uuid "c1efc7d9-0486-4ee8-b848-56d7ab719041")
 		(property "Reference" "H3"
-			(at 238.76 71.1199 0)
+			(at 267.97 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10895,7 +11177,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 232.918 68.326 0)
+			(at 262.128 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10904,7 +11186,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 236.22 73.66 0)
+			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10913,7 +11195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 73.66 0)
+			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10922,7 +11204,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 236.22 73.66 0)
+			(at 265.43 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 160.02 0)
+		(at 46.99 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11150,7 +11432,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a4fcbe-e624-49d6-a1ef-4371f431e3e2")
 		(property "Reference" "#PWR021"
-			(at 25.4 166.37 0)
+			(at 46.99 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11159,7 +11441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 165.1 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11167,7 +11449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 160.02 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 160.02 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11185,7 +11467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 160.02 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 132.715 34.29 0)
 			(effects
 				(font
@@ -11304,7 +11586,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 212.09 29.21 0)
+		(at 209.55 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11313,7 +11595,7 @@
 		(fields_autoplaced yes)
 		(uuid "db6971d1-64cd-4f67-8d45-9799e12c70db")
 		(property "Reference" "TP1"
-			(at 215.9 26.3524 0)
+			(at 213.36 37.7824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11604,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Probe"
-			(at 215.9 28.8924 0)
+			(at 213.36 40.3224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11331,7 +11613,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm"
-			(at 217.17 29.21 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 29.21 0)
+			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11349,7 +11631,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 212.09 29.21 0)
+			(at 209.55 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11438,7 +11720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 132.08 270)
+		(at 46.99 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11446,7 +11728,7 @@
 		(dnp no)
 		(uuid "dc62d434-cee4-4266-876f-f25a62c97caf")
 		(property "Reference" "#PWR039"
-			(at 19.05 132.08 0)
+			(at 40.64 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,7 +11737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.352 131.826 90)
+			(at 43.942 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11464,7 +11746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11473,7 +11755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,7 +11764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 132.08 0)
+			(at 46.99 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11504,7 +11786,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 236.22 90.17 0)
+		(at 265.43 46.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11512,7 +11794,7 @@
 		(dnp no)
 		(uuid "e0beb628-8cef-4194-84a0-e7327f764915")
 		(property "Reference" "H4"
-			(at 238.76 87.6299 0)
+			(at 267.97 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +11803,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 234.188 84.328 0)
+			(at 263.398 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11530,7 +11812,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 236.22 90.17 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11539,7 +11821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 90.17 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11548,7 +11830,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 236.22 90.17 0)
+			(at 265.43 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,16 +11852,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 17.78 124.46 0)
+		(at 25.4 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e14e420c-ddf1-46ed-96a4-ab37e70832f0")
 		(property "Reference" "#PWR040"
-			(at 17.78 128.27 0)
+			(at 25.4 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +11869,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 123.1899 0)
+			(at 23.876 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +11878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 124.46 0)
+			(at 25.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 124.46 0)
+			(at 25.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +11896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 17.78 124.46 0)
+			(at 25.4 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +11918,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,120Ω")
-		(at 95.25 116.84 90)
+		(at 124.46 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11645,7 +11926,7 @@
 		(dnp no)
 		(uuid "e1dc1dab-92a2-4e70-a5af-8d5ec9cc72f4")
 		(property "Reference" "R19"
-			(at 95.25 116.84 90)
+			(at 124.46 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11653,7 +11934,7 @@
 			)
 		)
 		(property "Value" "120Ω"
-			(at 95.25 118.872 90)
+			(at 124.46 118.872 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -11662,7 +11943,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0805"
-			(at 95.25 118.618 90)
+			(at 124.46 118.618 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +11952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F1200T5E_C17437.pdf"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11961,7 @@
 			)
 		)
 		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/°C ±1% 120Ω 0805 Chip Resistor - Surface Mount ROHS"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +11970,7 @@
 			)
 		)
 		(property "LCSC" "C17437"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11698,7 +11979,7 @@
 			)
 		)
 		(property "Stock" "640221"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,7 +11988,7 @@
 			)
 		)
 		(property "Price" "0.005USD"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11716,7 +11997,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11725,7 +12006,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11734,7 +12015,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,7 +12024,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11752,7 +12033,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,7 +12042,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,7 +12051,7 @@
 			)
 		)
 		(property "Part" "0805W8F1200T5E"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +12060,7 @@
 			)
 		)
 		(property "Resistance" "120Ω"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +12069,7 @@
 			)
 		)
 		(property "Power(Watts)" "125mW"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,7 +12078,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11806,7 +12087,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "150V"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11815,7 +12096,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +12105,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +12114,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 95.25 116.84 0)
+			(at 124.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +12165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 112.395 41.91 0)
 			(effects
 				(font
@@ -11955,7 +12236,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 76.2 0)
+		(at 252.73 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11963,7 +12244,7 @@
 		(dnp no)
 		(uuid "ea8e0c77-646a-496f-9bcc-b2aeca874f4b")
 		(property "Reference" "#PWR06"
-			(at 223.52 82.55 0)
+			(at 252.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11972,7 +12253,7 @@
 			)
 		)
 		(property "Value" "GND_M"
-			(at 223.52 81.28 0)
+			(at 252.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11980,7 +12261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 76.2 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +12270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 76.2 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +12279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 76.2 0)
+			(at 252.73 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12020,7 +12301,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 223.52 90.17 0)
+		(at 252.73 46.99 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12028,7 +12309,7 @@
 		(dnp no)
 		(uuid "f23cd7c0-518d-48cd-85c8-f0856744a4f7")
 		(property "Reference" "H1"
-			(at 226.06 87.6299 0)
+			(at 255.27 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12318,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 211.074 84.328 0)
+			(at 240.284 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12327,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at 223.52 90.17 0)
+			(at 252.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12336,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 90.17 0)
+			(at 252.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,7 +12345,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 223.52 90.17 0)
+			(at 252.73 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12079,6 +12360,85 @@
 			(project "Motor_Joint_Splitter_V2"
 				(path "/3db05b30-ca0c-4c9b-a71d-54ceaf5e03ab"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 25.4 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8902c33-4130-4c52-861a-89e111a6e20c")
+		(property "Reference" "C2"
+			(at 29.21 129.7939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 29.21 132.3339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 25.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 25.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45000"
+			(at 25.4 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f9b0541-eb9a-4609-a9c7-f807d88ae5c0")
+		)
+		(pin "1"
+			(uuid "08683b41-d5e5-4b25-bd36-4a74bdab96a6")
+		)
+		(instances
+			(project ""
+				(path "/3db05b30-ca0c-4c9b-a71d-54ceaf5e03ab"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12112,7 +12472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+		(property "Footprint" "PCM_JLCPCB:SOT-363_SC-70-6"
 			(at 132.715 41.91 0)
 			(effects
 				(font
